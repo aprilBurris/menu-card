@@ -1,0 +1,82 @@
+/* full body style */
+body{
+    background-color: rgb(8, 8, 43);
+    font-family: copperplate;
+    max-width: 40rem;
+    margin: 40px auto; /* center */
+    padding: 0 16px;
+}
+
+/* h1 heading style*/
+h1 {
+    color: blue;
+    text-shadow: -1px -1px white;
+    text-align: center;
+}
+
+/* form tag style */
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+/* label tag style */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: blue;
+}
+
+/* textarea tag style */
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: monospace;
+    padding: 8px;
+    border: 2px solid #f0c38e;
+    border-radius: 8px;
+}
+
+/* button tag style */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* button tag hover style */
+button:hover {
+    background-color: rgb(245, 241, 12);
+}
+
+/* count id style */
+#count {
+    text-align: center;
+    font-style: italic;
+}
+
+/* menu-text id style*/
+/* menu looks like a chalkboard*/
+#menu-text {
+    white-space: per-line; /* each item on it's own line */
+    background-color: rgb(8, 8, 43);
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* hide the chalkboard until there's a menu on it */
+#menu-text:empty {
+    display: none;
+}
