@@ -13,7 +13,15 @@
     
       <form id="menu-form">
          <label for="menu-input">Paste your menu as JSON</label>
-         <textarea id="menu-input" rows="8"></textarea>
+         <!-- JSON menu -->
+         <textarea id="menu-input" rows="8">
+          [
+            {"name": "3pc Fish", "price" : 15.99},
+            {"name": "12pc Shrimp", "price" : 17.99},
+            {"name": "3pc Chicken", "price" : 8.99},
+            {"name": "16oz Chicken & Sausage Gumbo", "price" : 9.99}
+          ]
+         </textarea>
          <button type="submit">Show my menu</button>
       </form>
     <p id="count"></p>
